@@ -1,0 +1,23 @@
+{
+  "directory": "storage/materials/demo/gateway",
+  "pdf": "gateway-baseline.pdf",
+  "title": "园区环境监测边缘网关",
+  "version": "V3.4.2",
+  "clauses": {
+    "GW-11": { "page": 2, "file": "buffer-test.txt", "statuses": ["satisfied"] },
+    "GW-12": { "page": 2, "file": "reconnect-log.txt", "statuses": ["failed"] },
+    "GW-13": { "page": 3, "file": "security-test.txt", "statuses": ["partial", "uncertain"] },
+    "GW-14": { "page": 3, "file": null, "statuses": ["missing"] },
+    "GW-15": { "page": 4, "file": "firmware-panel.png", "statuses": ["satisfied"] },
+    "GW-16": { "page": 4, "file": "heartbeat-log.txt", "statuses": ["failed"] }
+  },
+  "documents": {
+    "buffer-test.txt": "测试报告",
+    "reconnect-log.txt": "运行日志",
+    "security-test.txt": "测试报告",
+    "heartbeat-log.txt": "运行日志"
+  },
+  "images": [
+    { "name": "firmware-panel.png", "value": "V3.4.2", "id": "GW-SHOT-15" }
+  ]
+}
